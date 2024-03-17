@@ -53,6 +53,7 @@ executable implicit-try-exe
       base >=4.7 && <5
     , implicit
     , implicit-try
+    , lens
     , linear
   default-language: Haskell2010
 

@@ -11,7 +11,7 @@ obj =
       edgeRight a = edge (V2 a 5) (V2 (a + 10) (height - 5)) 1 0.9
       edgeLeft a = edge (V2 (a + 10) 5) (V2 a (height - 5)) 1 0.9
    in I.extrude (P.circle 10) height
-        & flip (I.differenceR 1) [I.translate (V3 0 0 1) (I.extrude (P.circle 9) height)]
+        & flip (I.differenceR 1) [I.translate (V3 0 0 1) (I.extrude (P.circle 8.6) height)]
         -- & \t -> union (t : [edgeRight a | a <- [0, 5 .. 51]])
         & ( `difference`
               ( [edgeLeft $ pi * a | a <- [0, 2 .. 20]]

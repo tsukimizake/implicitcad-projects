@@ -48,6 +48,7 @@ executables:
     - implicit-try
     - implicit
     - linear
+    - lens
 
 
 tests:

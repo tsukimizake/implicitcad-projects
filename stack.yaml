@@ -40,7 +40,12 @@ packages:
 #   commit: e7b331f14bcffb8367cd58fbfc8b40ec7642100a
 #
 extra-deps: 
-  - implicit-0.4.1.0@sha256:0f9e21694201ddd5ff3036186ae57119c57be7934209ab38d5f6be8590a802d8,8849
+  #- implicit-0.4.1.0@sha256:0f9e21694201ddd5ff3036186ae57119c57be7934209ab38d5f6be8590a802d8,8849
+  - git: https://github.com/Haskell-Things/implicitCAD
+    commit: 66515297d797f5baf2b4e79e563c0f24b370a4d7
+  # - git: https://github.com/tsukimizake/implicitCAD
+  #   commit: 1875d7a6cb00f915156d35c6e4842210d873a7b6
+
 
 # Override default flag values for local packages and extra-deps
 # flags: {}

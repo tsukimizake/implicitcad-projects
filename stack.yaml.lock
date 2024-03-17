@@ -5,12 +5,16 @@
 
 packages:
 - completed:
-    hackage: implicit-0.4.1.0@sha256:0f9e21694201ddd5ff3036186ae57119c57be7934209ab38d5f6be8590a802d8,8849
+    commit: 1875d7a6cb00f915156d35c6e4842210d873a7b6
+    git: https://github.com/tsukimizake/implicitCAD
+    name: implicit
     pantry-tree:
-      sha256: e864ab7164e874044cd7637fe48d0dc0431a8c74364c63c498ed1380bab603ec
-      size: 10547
+      sha256: 8d1697e1e9ae405421c8f66869085bb33d11b0e816ff69440946fa28aa00c9bc
+      size: 11259
+    version: 0.4.1.0
   original:
-    hackage: implicit-0.4.1.0@sha256:0f9e21694201ddd5ff3036186ae57119c57be7934209ab38d5f6be8590a802d8,8849
+    commit: 1875d7a6cb00f915156d35c6e4842210d873a7b6
+    git: https://github.com/tsukimizake/implicitCAD
 snapshots:
 - completed:
     sha256: 1b4c2669e26fa828451830ed4725e4d406acc25a1fa24fcc039465dd13d7a575
