@@ -40,6 +40,8 @@ library
 executable implicit-try-exe
   main-is: Main.hs
   other-modules:
+      Kiriko
+      Template
       Paths_implicit_try
   autogen-modules:
       Paths_implicit_try
